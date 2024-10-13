@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+    width:1440px;
+}
+.main{
+    height: 440px;
+    width: 620px;
+    background-color:  hsl(0, 0%, 100%);
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 105px;
+    border-radius: 8px;
+    
+   
+}
+.pic{
+    height: 440px;
+    width: 310px;
+    
+}
+.product{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+.info{
+    
+    height: 440px;
+    width: 310px;
+    margin-top: -440px;
+    margin-left: 310px;
+    border-radius: 0 8px 8px 0;
+    position:absolute;
+    padding: 10px 10px 10px 30px ;
+}
+.first{
+    
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight:500 ;
+    color: hsl(228, 12%, 48%);
+}
+.second{
+    color: black;
+    font-family: Fraunces;
+    font-weight: 700 ;
+    font-size: 35px;
+    margin-top: -5px;
+    margin-right: 50px;
+    
+  
+}
+.third{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight:500 ;
+    color: hsl(228, 12%, 48%);
+    margin-top: -9px;
+    margin-right: 50px;
+    
+}
+.forth{
+    font-family: Fraunces;
+    font-size: 30px;
+    font-weight: 650;
+    color:hsl(158, 36%, 37%);
+    margin-top: 0px;
+    display: inline;
+
+}
+.five{
+    display: inline;
+    text-decoration:line-through;
+    margin-left: 20px;
+    font-size: 17px;
+    color:hsl(228, 12%, 48%);
+  
+}
+.cart{
+    height:35px;
+    width: 240px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:hsl(158, 36%, 37%) ;
+    font-family: Montserrat;
+    font-weight: 540;
+    font-size: 12px;
+}
+button:active{
+    background-color:hsl(157, 64%, 15%) ;
+    font-size: 10px;
+    
+    transform: scale(1.99);
+    
+
+}
+button:hover{
+    background-color:hsl(157, 64%, 15%) ;
+    transform: scale(0.98); 
+}
